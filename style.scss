@@ -60,3 +60,33 @@ a {
     }
 }
 
+// PICCC
+
+.pic {
+    display: flex;
+    justify-content: space-between;
+    
+    .img1 {
+        display: block;
+        width: 100%;
+        margin-right: 70px;
+        
+        img {
+            width: 750px;
+            height: 700px;
+        }
+    }
+    
+    .img2 {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        transform: translateY(-90px);
+
+        img {
+            height: 550px;
+        }
+    }
+
+}
+
