@@ -84,7 +84,7 @@ a {
 // PICCC
 
 .pic {
-    padding: 0 0 80px;
+    padding: 0 0 60px;
     display: flex;
     justify-content: space-between;
     
@@ -142,5 +142,16 @@ a {
 // END OF PIC SECT>>
 
 .business {
-    display: inline-block;
+    // display: inline-block;
+    padding-top: 10px;
+
+    .bus-p {
+        font-weight: 500;
+    }
+    .bus-img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 45px;
+    }
 }
