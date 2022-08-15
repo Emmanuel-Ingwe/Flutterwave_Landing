@@ -75,7 +75,8 @@ a {
 }
 
 .sell .sell-h1 {
-  font-size: 100px;
+  line-height: 120px;
+  font-size: 110px;
   font-family: 'Sorts Mill Goudy', serif;
   margin: 0px 0px 30px;
 }
@@ -86,8 +87,7 @@ a {
 }
 
 .sell .sell-p {
-  font-size: 22px;
-  margin: 0 0 40px;
+  margin: 0 0 46px;
 }
 
 .pic {
@@ -150,7 +150,6 @@ a {
 
 .pic .img2 p {
   color: #1D1D1D;
-  font-size: 20px;
   margin: 74px 0 0;
 }
 
@@ -160,6 +159,7 @@ a {
 
 .business .bus-p {
   font-weight: 500;
+  font-size: 20px;
 }
 
 .business .bus-img {
@@ -171,5 +171,21 @@ a {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 45px;
+  padding-top: 40px;
+}
+
+.big-text {
+  margin-top: 200px;
+}
+
+.big-text h1 {
+  line-height: 80px;
+  font-size: 100px;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin: 0px 0px 30px;
+}
+
+.big-text span {
+  color: #FB9129;
+  font-family: 'Sorts Mill Goudy', serif;
 }
