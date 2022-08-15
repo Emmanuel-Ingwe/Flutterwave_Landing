@@ -12,7 +12,7 @@
   border: none;
   font-weight: 500;
   border-radius: 10px;
-  cursor: progress;
+  cursor: pointer;
 }
 
 a {
@@ -49,7 +49,7 @@ a {
 
 .nav .nav-list li {
   padding: 19px;
-  font-size: 13.5px;
+  font-size: 13.3px;
   color: #262C55;
   font-weight: 600;
 }
@@ -100,8 +100,8 @@ a {
   bottom: 7.1rem;
   right: 2rem;
   color: #fff;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
   line-height: 2.9rem;
   position: absolute;
 }
@@ -125,8 +125,8 @@ a {
   bottom: 11.2rem;
   left: 2rem;
   color: #fff;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
   line-height: 2.9rem;
   position: absolute;
 }
