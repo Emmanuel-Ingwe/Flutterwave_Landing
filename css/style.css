@@ -15,6 +15,12 @@
   cursor: pointer;
 }
 
+p {
+  color: #1D1D1D;
+  font-size: 20px;
+  margin: 74px 0 0;
+}
+
 a {
   text-decoration: none;
   display: -webkit-box;
@@ -54,6 +60,16 @@ a {
   font-weight: 600;
 }
 
+.nav .btn {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav .btn:hover {
+  background: #151930;
+  color: #ffff;
+}
+
 .sell {
   padding: 20px 133px;
 }
@@ -75,6 +91,7 @@ a {
 }
 
 .pic {
+  padding: 0 0 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,4 +152,8 @@ a {
   color: #1D1D1D;
   font-size: 20px;
   margin: 74px 0 0;
+}
+
+.business {
+  display: inline-block;
 }
