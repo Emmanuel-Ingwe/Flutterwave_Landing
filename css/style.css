@@ -231,3 +231,27 @@ a {
   color: #fb4e20;
   padding-right: 8px;
 }
+
+.build {
+  margin-top: 160px;
+  padding-top: 160px;
+  background-color: #f8fafd;
+}
+
+.build h1 {
+  color: #1D1D1D;
+  line-height: 90px;
+  font-size: 90px;
+  font-weight: 900;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin: 0px 0px 30px;
+}
+
+.build h1 span {
+  color: #35a162;
+  line-height: 90px;
+  font-size: 90px;
+  font-weight: 900;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin: 0px 0px 30px;
+}
