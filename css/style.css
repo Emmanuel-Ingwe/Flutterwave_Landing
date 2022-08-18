@@ -217,6 +217,15 @@ a {
   padding: 18px 25px;
 }
 
+.checkout .check2 {
+  height: auto;
+  max-height: 65rem;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -webkit-filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.2));
+}
+
 .checkout .check-text .check-text1 {
   padding: 0 0 100px;
 }
