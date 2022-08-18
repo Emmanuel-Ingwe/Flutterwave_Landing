@@ -250,6 +250,7 @@ a {
 
 .build {
   margin-top: 160px;
+  padding-bottom: 95px;
   padding-top: 160px;
   background-color: #f8fafd;
 }
@@ -278,4 +279,24 @@ a {
   display: flex;
   padding: 161px 235px;
   background-color: #f8fafd;
+}
+
+.store .store-items {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.store .store-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.2, 1.99);
+          transform: scale(1.2, 1.99);
+}
+
+.store .store-img img {
+  display: block;
+  width: 100%;
+  -webkit-transform: translateX(16.5%);
+          transform: translateX(16.5%);
 }

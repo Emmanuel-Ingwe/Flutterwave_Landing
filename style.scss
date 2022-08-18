@@ -231,6 +231,7 @@ a {
 
 .build {
     margin-top: 160px;
+    padding-bottom: 95px;
     padding-top: 160px;
     background-color: #f8fafd;
 
@@ -258,5 +259,19 @@ a {
     padding: 161px 235px;
     background-color: #f8fafd;
 
-    
+    .store-items {
+        transform: translateY(-20%);
+    }
+
+    .store-img {
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.2,1.99);
+        
+        img {
+            display: block;
+            width: 100%;
+            transform: translateX(16.5%);
+        }
+    }
 }
