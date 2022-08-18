@@ -300,3 +300,13 @@ a {
   -webkit-transform: translateX(16.5%);
           transform: translateX(16.5%);
 }
+
+.platform {
+  background-color: #f8fafd;
+}
+
+.platform .platform-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
