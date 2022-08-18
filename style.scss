@@ -266,14 +266,14 @@ a {
     .store-img {
         height: 100%;
         object-fit: cover;
-        transform: scale(1.2,1.99);
+        transform: scale(1.1,1.1);
         
         img {
             display: block;
-            width: 100%;
-            transform: translateX(16.5%);
+            width: 642;
+            transform: translateX(17.5%);
         }
-    }
+    }  
 }
 
 .platform {
@@ -282,5 +282,14 @@ a {
 
     .platform-items {
         display: flex;
+
+        .platform-img {
+            width: 100%;
+            object-fit: cover;
+
+            img {
+                width: 630px;
+            }
+        }
     }
 }
