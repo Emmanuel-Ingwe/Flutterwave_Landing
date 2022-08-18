@@ -14,6 +14,13 @@
     cursor: pointer;
 }
 
+.btn-check {
+    color: #fff;
+    background-color: #151930;
+    margin-top: 30px;
+    padding: 18px 25px;
+}
+
 p {
     color: #1D1D1D;
     font-size: 18px;
@@ -244,4 +251,12 @@ a {
             margin: 0px 0px 30px;
         }
     }
+}
+
+.store {
+    display: flex;
+    padding: 161px 235px;
+    background-color: #f8fafd;
+
+    
 }
