@@ -256,27 +256,21 @@ a {
 
 .store {
     display: flex;
-    padding: 161px 235px;
+    padding: 70px 235px;
     background-color: #f8fafd;
 
-    .store-items {
-        transform: translateY(-20%);
-    }
-
     .store-img {
-        height: 100%;
-        object-fit: cover;
-        transform: scale(1.1,1.1);
-        
+        transform: translate(23%, -16.1%);
+
         img {
-            display: block;
-            width: 642;
-            transform: translateX(17.5%);
+            width: 584px;
         }
-    }  
+    }
+    
 }
 
 .platform {
+    padding: 0px 133px;
     background-color: #f8fafd;
 
 
