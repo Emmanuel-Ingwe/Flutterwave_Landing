@@ -256,15 +256,19 @@ a {
 
 .store {
     display: flex;
-    padding: 70px 235px;
+    padding: 0px 235px;
     background-color: #f8fafd;
 
     .store-img {
-        transform: translate(23%, -16.1%);
+        transform: translate(23%, -2.1%);
 
         img {
             width: 584px;
         }
+    }
+
+    .store-items {
+        padding-top: 80px;
     }
     
 }
@@ -280,9 +284,35 @@ a {
         .platform-img {
             width: 100%;
             object-fit: cover;
+            transform: translateY(-15%);
 
             img {
                 width: 630px;
+                height: 700px;
+            }
+        }
+
+        .platform-text {
+            padding: 80px;
+            
+            .platform-text1 {
+                    padding: 0 0 90px;
+
+                    h2 {
+                            font-size: 1.4rem;
+                            font-weight: 600;
+                        }
+                
+                        p {
+                            padding: 0 0 16px;
+                        }
+                    
+                        a {
+                            font-weight: 600;
+                            font-size: 14px;
+                            color: #fb4e20;
+                            padding-right: 8px;
+                        }
             }
         }
     }
