@@ -336,3 +336,11 @@ a {
         font-size: 16px;
     }
 }
+
+.footer-lists {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 70px;
+    // background-color: #2196F3;
+    padding: 10px;
+}

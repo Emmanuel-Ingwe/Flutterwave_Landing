@@ -360,3 +360,12 @@ a {
   padding: 28px 32px;
   font-size: 16px;
 }
+
+.footer-lists {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  grid-gap: 70px;
+  padding: 10px;
+}
