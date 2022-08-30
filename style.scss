@@ -337,10 +337,32 @@ a {
     }
 }
 
-.footer-lists {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 70px;
-    // background-color: #2196F3;
-    padding: 10px;
+.footer {
+    margin-top:200px;
+
+    .footer-lists {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 70px;
+        // background-color: #2196F3;
+        padding: 10px;
+
+        .list {
+
+            h4 {
+                color: #1D1D1D;
+                font-size: 18.5px;
+                padding: 2px;
+            }
+
+            ul {
+                list-style-type: none;
+                color: #1D1D1D;
+            }
+
+            li {
+                    font-size: 5px;
+                }
+        }
+    }
 }
