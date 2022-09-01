@@ -357,12 +357,20 @@ a {
 
             ul {
                 list-style-type: none;
-                color: #1D1D1D;
             }
-
+            
             li {
-                    font-size: 15px;
+                    font-size: 16px;
                     line-height: 24px;
+                    color: #1D1D1D;
+                    color: inherit;
+                    font-weight: 300;
+                    line-height: 1.9rem;
+                    padding: 0.2rem;
+                    text-decoration: none;
+                    transition: color .3s ease;
+                    word-wrap: break-word;
+                    max-width: 100%;
                 }
         }
     }
