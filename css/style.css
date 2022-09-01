@@ -386,5 +386,6 @@ a {
 }
 
 .footer .footer-lists .list li {
-  font-size: 5px;
+  font-size: 15px;
+  line-height: 24px;
 }
