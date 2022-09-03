@@ -372,7 +372,18 @@ a {
                     word-wrap: break-word;
                     max-width: 100%; 
 
+                    &:hover {
+                        color: #2196F3;
+                    }
+
                 }
         }
+    }
+
+    hr {
+        margin-top: 40px;
+        border: none;
+        height: 0.9px;
+        background: lightgrey;
     }
 }

@@ -398,3 +398,14 @@ a {
   word-wrap: break-word;
   max-width: 100%;
 }
+
+.footer .footer-lists .list li:hover {
+  color: #2196F3;
+}
+
+.footer hr {
+  margin-top: 40px;
+  border: none;
+  height: 0.9px;
+  background: lightgrey;
+}
