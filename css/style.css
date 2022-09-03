@@ -420,6 +420,9 @@ a {
 }
 
 .footer .con .flag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 1px;
 }
 
@@ -432,11 +435,49 @@ a {
      object-fit: cover;
   overflow: hidden;
   width: 1.3rem;
+  cursor: pointer;
 }
 
-.footer .con .flag w {
+.footer .con .flag p {
   font-size: 14px;
-  padding: 6px;
-  -webkit-transform: translate(25px);
-          transform: translate(25px);
+  padding-left: 9px;
+  color: #1D1D1D;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+  cursor: pointer;
+}
+
+.footer .con .flag p:hover {
+  color: #2196F3;
+}
+
+.footer .con .list {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.footer .con .list ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .con .list ul li {
+  margin: 0px 24px 0px 0px;
+  font-size: 14px;
+  color: #1D1D1D;
+  font-weight: 400;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+.footer .con .list ul li:hover {
+  color: #2196F3;
 }
