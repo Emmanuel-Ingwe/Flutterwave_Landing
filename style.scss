@@ -383,8 +383,9 @@ a {
     hr {
         margin: 40px 0;
         border: none;
-        height: 0.9px;
-        background: lightgrey;
+        border-radius: 10px;
+        height: 0.1px;
+        background: rgb(238, 237, 237);
     }
 
     .con {

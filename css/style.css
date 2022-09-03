@@ -406,8 +406,9 @@ a {
 .footer hr {
   margin: 40px 0;
   border: none;
-  height: 0.9px;
-  background: lightgrey;
+  border-radius: 10px;
+  height: 0.1px;
+  background: #eeeded;
 }
 
 .footer .con {
@@ -471,9 +472,8 @@ a {
 
 .footer .con .list ul li {
   margin: 0px 24px 0px 0px;
-  font-size: 14px;
+  font-size: 14.8px;
   color: #1D1D1D;
-  font-weight: 400;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
