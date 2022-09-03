@@ -381,9 +381,35 @@ a {
     }
 
     hr {
-        margin-top: 40px;
+        margin: 40px 0;
         border: none;
         height: 0.9px;
         background: lightgrey;
     }
+
+    .con {
+        display: flex;
+        justify-content: space-between;
+
+        .flag {
+            padding: 1px;
+
+            img {
+                background: #fff;
+                border: none;
+                border-radius: 50%;
+                height: 1.3rem;
+                object-fit: cover;
+                overflow: hidden;
+                width: 1.3rem;
+            }
+
+            w {
+                font-size: 14px;
+                padding: 6px;
+                transform: translate(25px);
+            }
+        }
+    }
+
 }

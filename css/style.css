@@ -404,8 +404,39 @@ a {
 }
 
 .footer hr {
-  margin-top: 40px;
+  margin: 40px 0;
   border: none;
   height: 0.9px;
   background: lightgrey;
+}
+
+.footer .con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .con .flag {
+  padding: 1px;
+}
+
+.footer .con .flag img {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 1.3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  width: 1.3rem;
+}
+
+.footer .con .flag w {
+  font-size: 14px;
+  padding: 6px;
+  -webkit-transform: translate(25px);
+          transform: translate(25px);
 }
