@@ -481,3 +481,9 @@ a {
 .footer .con .list ul li:hover {
   color: #2196F3;
 }
+
+@media (max-width: 700px) {
+  .nav .nav-list {
+    visibility: hidden;
+  }
+}

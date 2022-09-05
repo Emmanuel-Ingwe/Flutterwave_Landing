@@ -1,3 +1,8 @@
 @media (max-width: 700px) {
-	.nav
+	.nav {
+
+        .nav-list {
+            visibility: hidden; 
+        }
+    }
 }
